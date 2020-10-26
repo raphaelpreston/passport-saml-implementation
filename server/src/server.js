@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-/* configure passport (and ability to persist user data)with server */
+/* configure passport (and ability to persist user data) with server */
 auth.applyPassportAndPersistence(app);
 
 /* declare routes */
