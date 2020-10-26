@@ -38,7 +38,7 @@ const applyPassportAndPersistence = (app) => {
       issuer: constants.SAML_ENTITY_ID, // unique ID
       cert: constants.SAML_CERT,
       entryPoint: constants.SAML_SSO_URL,
-      callbackUrl: constants.SAML_ACS_URL, // this must exist and match EXACTLY what's in WS1 configs
+      callbackUrl: constants.SAML_ACS_URL, // this must exist and match EXACTLY what's in IdP configs
     },
     (profile, done) => done(null, profile),
   ));
