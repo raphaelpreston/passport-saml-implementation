@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React client-side component of the `passport-saml` implementation",
   "main": "index.js",
-  "repository": "https://github.com/raphaelpreston/passport-saml-tutorial.git",
+  "repository": "https://github.com/raphaelpreston/passport-saml-implementation.git",
   "author": "Raphael Preston <raphael.o.preston@gmail.com>",
   "license": "MIT",
   "devDependencies": {
