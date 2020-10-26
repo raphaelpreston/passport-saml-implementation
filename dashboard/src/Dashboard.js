@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
 const Dashboard = (props) => {
-  /* hook to keep track of configuration request */
+  /* hook to keep track of user data request */
   const [userReq, setUserReq] = useState({
     loading: true,
     data: null,
