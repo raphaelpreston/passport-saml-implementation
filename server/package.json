@@ -2,7 +2,7 @@
   "name": "saml-integration-tutorial-server",
   "version": "1.0.0",
   "description": "Server component of the `passport-saml` implementation.",
-  "repository": "https://github.com/raphaelpreston/passport-saml-tutorial.git",
+  "repository": "https://github.com/raphaelpreston/passport-saml-implementation.git",
   "author": "Raphael Preston <raphael.o.preston@gmail.com>",
   "main": "src/server.js",
   "license": "MIT",
